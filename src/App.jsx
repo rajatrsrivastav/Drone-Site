@@ -2,8 +2,8 @@ import { Navbar } from './components/Navbar'
 import {LandingPage} from './components/landing-page'
 import { Overview } from './components/Overview'
 import { Setup } from './components/Setup'
-import { Controls } from './components/controls'
-import { Safety } from './components/safety'
+import { Controls } from './components/Controls'
+import { Safety } from './components/Safety'
 import {Footer} from './components/Footer'
 const App = () => {
   return (
