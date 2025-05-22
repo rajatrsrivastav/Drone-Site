@@ -1,5 +1,5 @@
-import React from 'react'
 import { Navbar } from './components/Navbar'
+import {LandingPage} from './components/landing-page'
 import { Overview } from './components/Overview'
 import { Setup } from './components/Setup'
 import { Controls } from './components/controls'
@@ -9,7 +9,8 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-      <main>
+      <main className="pt-20 px-10 lg:px-36 scroll-smooth">
+        <LandingPage/>
         <Overview/>
         <Setup/>
         <Controls/>
