@@ -7,7 +7,7 @@ export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="w-full px-6 py-4 flex items-center justify-between shadow-md bg-white">
+    <div className="w-full px-6 py-4 flex items-center justify-between shadow-md bg-white sticky">
       <div className="flex items-center gap-6">
         <a className="w-12 h-12" href="/">
           <img src="./drona-logo.png" alt="Logo" className="w-full h-full" />

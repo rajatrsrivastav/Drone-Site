@@ -8,7 +8,7 @@ import {Footer} from './components/Footer'
 const App = () => {
   return (
     <div>
-      <Navbar/>
+        <Navbar/>
       <main className="pt-20 px-10 lg:px-36 scroll-smooth">
         <LandingPage/>
         <Overview/>
